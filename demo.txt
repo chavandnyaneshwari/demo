@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food E-Commerce</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+    }
+    header {
+      background: #ff6f61;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+    .card h3 {
+      margin: 10px 0;
+      font-size: 20px;
+      color: #333;
+    }
+    .price {
+      color: #ff6f61;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .btn {
+      display: inline-block;
+      background: #ff6f61;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 8px;
+      margin: 10px 0 15px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #e55b50;
+    }
+  </style>
+</head>
+<body>
+  <header>🍔 Food E-Commerce Store</header>
+
+  <div class="container">
+    <div class="card">
+      <img src="1.png" alt="Burger">
+      <h3>Cheese Burger</h3>
+      <p class="price">₹120</p>
+      <button class="btn">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="2.jpng"  alt="Pizza">
+      <h3>Margherita Pizza</h3>
+      <p class="price">₹250</p>
+      <button class="btn">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="3.jpng" alt="Pasta">
+      <h3>White Sauce Pasta</h3>
+      <p class="price">₹180</p>
+      <button class="btn">Add to Cart</button>
+    </div>
+
+    
+     
+ 
+   
+    
+    </div>
+  </div>
+</body>
+</html>
